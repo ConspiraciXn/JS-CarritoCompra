@@ -1,0 +1,92 @@
+.thumb-wrapper {
+	padding: 25px 15px;
+	background: rgb(255, 255, 255);
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+a, a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.botonCompra {
+	color: #7ac400;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: none;
+	border: 1px solid #7ac400;
+	padding: 6px 14px;
+	margin-top: 5px;
+	line-height: 16px;
+	border-radius: 20px;
+}
+
+.img-box {
+	height: 120px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+
+img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.thumb-content .botonCompra:hover, .thumb-content .botonCompra:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+
+.thumb-content .botonCompra i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+
+.item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+
+.wish-icon .fa-heart {
+	color: #ff6161;
+}
+
+.star-rating li {
+	padding: 0;
+}
+
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
