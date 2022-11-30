@@ -1,7 +1,7 @@
 # JavaScript Carrito Compra
 
-Entrega #2 Curso JavaScript CoderHouse.
+Entrega #3 Curso JavaScript CoderHouse.
 
-Contenido: Variables, condicionales, arrays, objetos, clases, funciones.
+Contenido: DOM, JSON, Storage.
  
-Proyecto: Carrito de compra (no HTML).
+Proyecto: Carrito de compra con manejo de DOM.
